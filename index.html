@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>HTML Form</title>
+</head>
+<body>
+    <div class="background">
+        <h1>Enter the Details</h1>
+        <p id="error"></p>
+        <form id="form">
+            
+            <input id="firstName" type="text" placeholder="First Name">
+            <input id="lastname" type="text" placeholder="Last Name">
+            <input id="add" type="text" placeholder="Address">
+            <input id="pin" type="number" placeholder="Pin Code" maxlength=5>
+
+            <select id="gender">
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select>
+
+            <select id="food">
+                <option>South Indian</option>
+                <option>North Indian</option>
+                <option>Pure Veg</option>
+                <option>Non Veg</option>
+                <option>other</option>
+            </select>
+
+            <input id="state" type="text" placeholder="State">
+            <input id="country" type="text" placeholder="Country">
+            <input type="submit">
+           
+
+           
+        </form>
+    </div>
+
+    <div>
+        <table id="table">
+            <tr>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Address</th>
+                <th>PinCode</th>
+                <th>Gender</th>
+                <th>Food</th>
+                <th>State</th>
+                <th>Country</th>
+            </tr>
+        </table>
+    </div>
+
+    <script src="./script.js">
+       
+    </script>   
+</body>
+</html>
